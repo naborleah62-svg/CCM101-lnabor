@@ -4,17 +4,17 @@
 This laboratory demonstrates how to access and utilize a cloud-based Linux environment, navigate the file system, gather system information, and manage files and directories using Linux commands while documenting everything professionally via GitHub and Markdown.
 
 ## Objectives
-* Access and use a cloud-based Linux environment through KillerCoda[cite: 1].
-* Navigate the Linux file system and gather basic system information[cite: 1].
-* Create and organize files and directories using Linux[cite: 1].
-* Build a professional GitHub portfolio repository (`CCM101-lnabor`)[cite: 1].
-* Document work thoroughly using Markdown[cite: 1].
+* Access and use a cloud-based Linux environment through KillerCoda.
+* Navigate the Linux file system and gather basic system information.
+* Create and organize files and directories using Linux.
+* Build a professional GitHub portfolio repository (`CCM101-lnabor`).
+* Document work thoroughly using Markdown.
 
 ## Activities Performed
-1. **Environment Setup:** Launched an Ubuntu Linux playground via KillerCoda and created a custom user account (`lnabor`)[cite: 1].
-2. **System Information Gathering:** Investigated system specs, memory utilization, and disk space using terminal commands[cite: 1].
-3. **Workspace Organization:** Created required directories (`Notes`, `Reports`, `Screenshots`) and structured markdown files[cite: 1].
-4. **Portfolio Management:** Initialized a version-controlled GitHub repository and organized all documentation and evidence[cite: 1].
+1. **Environment Setup:** Launched an Ubuntu Linux playground via KillerCoda and created a custom user account (`lnabor`).
+2. **System Information Gathering:** Investigated system specs, memory utilization, and disk space using terminal commands.
+3. **Workspace Organization:** Created required directories (`Notes`, `Reports`, `Screenshots`) and structured markdown files.
+4. **Portfolio Management:** Initialized a version-controlled GitHub repository and organized all documentation and evidence.
 
 ## Linux Commands Used
 * `useradd` / `usermod` - Create and manage user accounts
@@ -27,7 +27,7 @@ This laboratory demonstrates how to access and utilize a cloud-based Linux envir
 * `uname -r` - Print kernel version
 
 ## Skills Learned
-* Managing user accounts and permissions in a Linux environment[cite: 1].
-* Navigating the file system and gathering system resource details[cite: 1].
-* Structuring professional software documentation using Markdown (`.md`)[cite: 1].
-* Maintaining a version-controlled Cloud Computing Portfolio on GitHub[cite: 1].
+* Managing user accounts and permissions in a Linux environment.
+* Navigating the file system and gathering system resource details.
+* Structuring professional software documentation using Markdown (`.md`).
+* Maintaining a version-controlled Cloud Computing Portfolio on GitHub.
