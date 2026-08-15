@@ -31,7 +31,7 @@ AWS can be used by enterprises for web applications, data storage, databases, ba
 
 ## Screenshot
 
-![AWS Homepage](screenshots/aws-homepage.png)
+![AWS Homepage](screenshots/aws-homepage.png.png)
 
 ## References
 
