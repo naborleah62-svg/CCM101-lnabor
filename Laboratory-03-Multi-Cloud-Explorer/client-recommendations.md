@@ -44,6 +44,17 @@ I recommend AWS because the company needs highly available infrastructure for cu
 - Amazon S3 – for storing data and files
 - Elastic Load Balancing – for distributing traffic across servers
 
+  ## Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | AWS offers many services that can support a growing startup. |
+| Enterprise Organization | AWS | AWS provides many services for enterprise workloads. |
+| Microsoft Environment | Microsoft Azure | Azure works well with Microsoft technologies. |
+| AI / Machine Learning | Google Cloud | Google Cloud provides strong AI and machine learning services. |
+| Kubernetes Deployment | Google Cloud | Google Kubernetes Engine (GKE) provides managed Kubernetes. |
+| Global Web Application | AWS | AWS has a global infrastructure that can support applications worldwide. |
+
 ## References
 
 - Amazon Web Services. (n.d.). *AWS products*. https://aws.amazon.com/products/
