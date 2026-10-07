@@ -167,7 +167,7 @@ AI was used for:
 
 * Syntax verification for Docker Compose, UFW rules, and Cron timing
 * Troubleshooting the MySQL backup flag `--no-tablespaces`
-* Document formatting
+
 
 ### Student Authorship & Execution
 
