@@ -1,25 +1,35 @@
-# Operational Manual: Enterprise Cloud Infrastructure Deployment
+# CCM101 - Cloud Computing
+## Enterprise Cloud Architect – Operational Manual
 
-## 1. System Architecture Overview
-This infrastructure hosts a containerized WordPress platform running on an Ubuntu Server Virtual Machine managed via VirtualBox.
+**Project:** Secure Multi-Tier Web Application  
+**Application Stack:** WordPress + MySQL  
+**Prepared by:** Paula Mae S. Mata | Leah A. Nabor | Katrina May G. Rimando |  Maricar J. Valdez
+**Section:** BSIT 2A  
+**Instructor:** Jenkielyn C. Torres  
+**Date:** October 2026  
 
-* **Host Environment:** Windows OS / VirtualBox
-* **Server OS:** Ubuntu Server LTS
-* **SSH Management Port:** Port 22 (Mapped to Host 2222)
-* **Web Service Port:** Port 80 (Mapped to Host 8080)
-* **Container Stack:** Docker Compose (WordPress + MySQL 8.0)
+---
+
+## 1. System Overview
+This manual explains how to run, secure, and maintain a multi-tier web application using Docker containers on an Ubuntu Server Virtual Machine inside VirtualBox.
+
+* **Host Computer:** Windows OS running Oracle VirtualBox
+* **Server OS:** Headless Ubuntu Server LTS (24.04 LTS)
+* **Web Server & App:** WordPress Container (Port 80)
+* **Database:** MySQL 8.0 Container (Port 3306)
+* **Network Access:** NAT Port Forwarding (Host Port 8080 -> VM Port 80)
 
 ---
 
 ## 2. Infrastructure Setup & Deployment
 
-### Step 1: Network Configuration
-Host NAT Port Forwarding rules configured on VirtualBox:
-* **SSH:** `127.0.0.1:2222` -> Guest `22`
-* **HTTP:** `127.0.0.1:8080` -> Guest `80`
+### Network Configuration (VirtualBox NAT)
+To open the WordPress site on the host browser, configure NAT Port Forwarding:
+* **HTTP Rule:** Host Port `8080` -> Guest Port `80`
+* **SSH Rule:** Host Port `2222` -> Guest Port `22`
 
-### Step 2: Deployment via Docker Compose
-To deploy the full web and database stack:
+### Container Deployment
+To start the WordPress and MySQL containers in the background:
 ```bash
 cd ~/wordpress-stack
 sudo docker compose up -d
